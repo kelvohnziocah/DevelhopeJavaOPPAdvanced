@@ -43,7 +43,7 @@ class Car extends Vehicle{
     @Override
     public String showVehicleDetails(){
         super.showVehicleDetails();
-        String carDetails = String.format("number of doors: %d", getNumberOfDoors());
+        String carDetails = String.format("number of doors: %d%n Price of Car: %.2f", getNumberOfDoors(), getCarPrice());
         System.out.println(carDetails);
         return carDetails;
     }
