@@ -64,9 +64,9 @@ public class Badge {
         Badge badge2 = new Badge(employee4);
         System.out.println("total number of Employees: " + totalNumberOfEmployees);
         badge.showBadgeDetails();
-        System.out.println("********************");
+        System.out.println("*****************");
         badge1.showBadgeDetails();
-        System.out.println("********************");
+        System.out.println("*****************");
         badge2.showBadgeDetails();
     }
 }

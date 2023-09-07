@@ -35,7 +35,6 @@ public class Employee {
     }
 
     public String getEmployeeDetails(){
-        return String.format("full name: %s %s%n Address: %s%n",getName(), getSurname(), getAddress());
+        return String.format("full name: %s %s%n Home Address: %s%n",getName(), getSurname(), getAddress());
     }
-
 }
